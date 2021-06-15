@@ -1,0 +1,21 @@
+// TOP LABEL
+.info_topLabel{
+    background-color: $topLabel;
+    color: $lightText;
+    padding: 0.5rem;
+    font-size: $fontSizeTopLabel;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    };
+    .info_2ndBlock{
+        display: flex;
+        .emailAddress{
+            margin: 0 2rem;
+        };
+        .fa-twitter{
+            margin: 0 2rem;
+        }
+    }
+}

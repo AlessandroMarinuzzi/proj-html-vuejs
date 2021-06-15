@@ -1,4 +1,36 @@
 @import url(https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap);
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "Noto Sans", sans-serif;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+.info_topLabel {
+  background-color: #21333e;
+  color: #b9c3d0;
+  padding: 0.5rem;
+  font-size: 11px;
+}
+.info_topLabel .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info_topLabel .info_2ndBlock {
+  display: flex;
+}
+.info_topLabel .info_2ndBlock .emailAddress {
+  margin: 0 2rem;
+}
+.info_topLabel .info_2ndBlock .fa-twitter {
+  margin: 0 2rem;
 }
