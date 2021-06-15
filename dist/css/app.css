@@ -160,15 +160,17 @@ a {
   font-weight: bold;
 }
 .company .container .companyDescription h2 {
-  font-size: 40px;
-  font-weight: bold;
-  color: white;
+  font-size: 35px;
+  font-weight: 900;
   padding: 20px 0;
+  color: white;
+}
+.company .container .companyDescription h2 > span {
+  padding: 0 0.5rem;
+  border-radius: 5px;
 }
 .company .container .companyDescription h2 > span {
   background-color: #0e272d;
-  padding: 0 0.5rem;
-  border-radius: 5px;
 }
 .company .container .companyDescription p {
   color: #b9c3d0;
@@ -195,4 +197,43 @@ a {
 .company .container .companyFeatures .featuresCard p {
   color: #b9c3d0;
   margin: 15px 0;
+}
+
+.excellence {
+  background-color: #eef4ed;
+  padding: 60px 0;
+}
+.excellence .container > span {
+  color: #00a6a6;
+  text-transform: uppercase;
+}
+.excellence .container > h2 {
+  font-size: 35px;
+  font-weight: 900;
+  padding: 20px 0;
+  color: #21333e;
+}
+.excellence .container > h2 > span {
+  padding: 0 0.5rem;
+  border-radius: 5px;
+}
+.excellence .container > h2 span {
+  color: #058283;
+  background-color: #bfdbdc;
+}
+.excellence .container > .services {
+  display: flex;
+  justify-content: space-between;
+  color: #697881;
+}
+.excellence .container > .services p {
+  width: 80%;
+}
+.excellence .container > .services button {
+  text-transform: uppercase;
+  padding: 0.4rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+  background-color: #058283;
+  color: white;
 }

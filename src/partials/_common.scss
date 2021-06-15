@@ -46,3 +46,14 @@ a{
     color: $ligthWaterGreen;
     text-transform: uppercase;
 }
+
+// H2 IN ALL SECTIONS
+@mixin sectionsH2 {
+    font-size: 35px;
+    font-weight: 900;
+    padding: 20px 0;
+    >span{
+        padding: 0 0.5rem;
+        border-radius: 5px;
+    }
+}

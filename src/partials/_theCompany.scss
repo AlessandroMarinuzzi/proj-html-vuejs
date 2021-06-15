@@ -17,14 +17,10 @@
                 font-weight: bold;
             };
             h2{
-                font-size: 40px;
-                font-weight: bold;
+                @include sectionsH2;
                 color:$whiteText;
-                padding: 20px 0;
                 >span{
                     background-color: $transpDarkWater;
-                    padding: 0 0.5rem;
-                    border-radius: 5px;
                 };
             };
             p{
@@ -55,9 +51,9 @@
                 p{
                     color: $lightText;
                     margin: 15px 0;
-                }
-            }
-        }
+                };
+            };
+        };
 
     };
     
