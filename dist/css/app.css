@@ -58,7 +58,7 @@ a {
   margin-left: auto;
 }
 .jumbotron .herosection .jumbotextBlock span {
-  color: #058283;
+  color: #00a6a6;
   text-transform: uppercase;
   font-size: 13px;
 }
@@ -135,4 +135,63 @@ a {
 }
 .navbar ul li button a {
   color: white;
+}
+
+.company {
+  background-color: #111117;
+  padding: 60px 0;
+}
+.company .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.company .container .companyDescription {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+.company .container .companyDescription > span {
+  color: #00a6a6;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+}
+.company .container .companyDescription h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  padding: 20px 0;
+}
+.company .container .companyDescription h2 > span {
+  background-color: #0e272d;
+  padding: 0 0.5rem;
+  border-radius: 5px;
+}
+.company .container .companyDescription p {
+  color: #b9c3d0;
+  padding: 10px 0;
+}
+.company .container .companyFeatures {
+  display: flex;
+  flex-wrap: wrap;
+  width: 48%;
+  padding: 30px 0;
+  margin-top: 25px;
+}
+.company .container .companyFeatures .featuresCard {
+  width: 50%;
+  margin: 20px 0;
+}
+.company .container .companyFeatures .featuresCard h3 {
+  color: white;
+  font-size: 18px;
+}
+.company .container .companyFeatures .featuresCard h3 > i {
+  color: #00a6a6;
+}
+.company .container .companyFeatures .featuresCard p {
+  color: #b9c3d0;
+  margin: 15px 0;
 }

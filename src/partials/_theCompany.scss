@@ -1,0 +1,64 @@
+.company{
+    background-color: $darkBG;
+    padding: 60px 0;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        // Left Side
+        .companyDescription{
+            display: flex;
+            flex-direction: column;
+            width: 48%;
+            >span{
+                @include overSectionSpan;
+                font-size: $fontSizeTopLabel;
+                font-weight: bold;
+            };
+            h2{
+                font-size: 40px;
+                font-weight: bold;
+                color:$whiteText;
+                padding: 20px 0;
+                >span{
+                    background-color: $transpDarkWater;
+                    padding: 0 0.5rem;
+                    border-radius: 5px;
+                };
+            };
+            p{
+                color:$lightText;
+                padding: 10px 0;
+            };  
+        };
+        // X Left Side
+
+        // Right Side
+        .companyFeatures{
+            display: flex;
+            flex-wrap: wrap;
+            width: 48%;
+            padding: 30px 0;
+            margin-top: 25px;
+            
+            .featuresCard{
+                width: 50%;
+                margin: 20px 0;
+                h3{
+                    color: $whiteText;
+                    font-size: 18px;
+                    >i{
+                        color:$ligthWaterGreen;
+                    };
+                };
+                p{
+                    color: $lightText;
+                    margin: 15px 0;
+                }
+            }
+        }
+
+    };
+    
+}
