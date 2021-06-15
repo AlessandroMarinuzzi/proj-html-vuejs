@@ -1,4 +1,17 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/images/bg-1.jpg": "/images/bg-1.jpg",
+    "/images/bg-6.jpg": "/images/bg-6.jpg",
+    "/images/image.png": "/images/image.png",
+    "/images/logo_48.png": "/images/logo_48.png",
+    "/images/news-1.jpg": "/images/news-1.jpg",
+    "/images/news-2.jpg": "/images/news-2.jpg",
+    "/images/news-3.jpg": "/images/news-3.jpg",
+    "/images/news-4.jpg": "/images/news-4.jpg",
+    "/images/news-5.jpg": "/images/news-5.jpg",
+    "/images/team-1.jpg": "/images/team-1.jpg",
+    "/images/team-2.jpg": "/images/team-2.jpg",
+    "/images/team-3.jpg": "/images/team-3.jpg",
+    "/images/team-4.jpg": "/images/team-4.jpg"
 }

@@ -34,3 +34,7 @@ body {
 .info_topLabel .info_2ndBlock .fa-twitter {
   margin: 0 2rem;
 }
+
+.jumbotron {
+  background-image: url(/images/bg-6.jpg?95f6dae8e0754cfdd1b9ec080624fe31);
+}
