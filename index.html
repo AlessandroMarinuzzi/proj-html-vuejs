@@ -46,9 +46,22 @@
             <!-- JUMBOTRON -->
             <div class="jumbotron">
                 <div class="container">
-                    <nav>
-                        <a href="#"></a>
+
+                    <!-- NAVBAR -->
+                    <nav class="navbar">
+                        <span class="logo">
+                            <a class="logoLink" href="">Nex Gen</a>
+                        </span>
+
+                        <ul class="navlinks">
+                            <li class="linkItem" v-for="link in navLinks">
+                                <a href="" class="navlink">{{link}}</a>
+                            </li>
+                            <li><button><a href="">get in touch</a></button></li>
+                        </ul>
                     </nav>
+                    <!-- /NAVBAR -->
+
                 </div>
             </div>
             <!-- /JUMBOTRON -->

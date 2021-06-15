@@ -14,6 +14,14 @@ body {
   margin: auto;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .info_topLabel {
   background-color: #21333e;
   color: #b9c3d0;
@@ -36,5 +44,5 @@ body {
 }
 
 .jumbotron {
-  background-image: url(/images/bg-6.jpg?95f6dae8e0754cfdd1b9ec080624fe31);
+  background-image: url("../../dist/images/bg-6.jpg");
 }
