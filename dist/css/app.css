@@ -7,10 +7,11 @@
 
 body {
   font-family: "Noto Sans", sans-serif;
+  font-size: 13px;
 }
 
 .container {
-  width: 60%;
+  width: 65%;
   margin: auto;
 }
 
@@ -37,12 +38,56 @@ a {
   display: flex;
 }
 .info_topLabel .info_2ndBlock .emailAddress {
-  margin: 0 2rem;
+  margin: 0 1.5rem;
 }
 .info_topLabel .info_2ndBlock .fa-twitter {
-  margin: 0 2rem;
+  margin: 0 1.5rem;
 }
 
 .jumbotron {
   background-image: url("../../dist/images/bg-6.jpg");
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 1rem 0;
+}
+.navbar .logoLink {
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+}
+.navbar .nex {
+  color: #058283;
+  padding: 0.5rem 0.2rem 0.5rem 1rem;
+  background-color: #bfdbdc;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.navbar .gen {
+  color: #21333e;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+.navbar ul li {
+  margin-left: 1.5rem;
+}
+.navbar ul li a {
+  color: #21333e;
+}
+.navbar ul li button {
+  text-transform: uppercase;
+  padding: 0.4rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+  background-color: #058283;
+}
+.navbar ul li button a {
+  color: white;
 }

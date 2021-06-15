@@ -6,10 +6,11 @@
 
 body{
     font-family: 'Noto Sans', sans-serif;
+    font-size: $standardFontSize;
 }
 
 .container{
-    width: 60%;
+    width: 65%;
     margin: auto;
 }
 
@@ -18,4 +19,11 @@ ul{
 }
 a{
     text-decoration: none;
+}
+
+@mixin button {
+    text-transform: uppercase;
+    padding:0.4rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.3rem;
 }

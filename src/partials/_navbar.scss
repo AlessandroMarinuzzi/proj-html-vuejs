@@ -1,0 +1,42 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 1rem 0;
+
+    .logoLink{
+        font-size: $smallTitleSize;
+        font-weight: bold;
+        border-radius: 20px;
+        padding: 0.5rem 1rem;
+    }
+    .nex{
+        color: $waterGreen;
+        padding: 0.5rem 0.2rem 0.5rem 1rem;
+        background-color: rgba(191,219,220,255);
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .gen{
+        color: $darkText;
+    }
+    
+    ul{
+        display: flex;
+        align-items: center;
+        li{
+            margin-left:1.5rem;
+            a{
+                color: $darkText;
+            };
+            button{
+                @include button;
+                background-color: $waterGreen;
+                a{
+                    color: $whiteText;
+                }
+            }
+        }
+    }
+}
