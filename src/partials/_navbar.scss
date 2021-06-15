@@ -3,13 +3,12 @@
     justify-content: space-between;
     align-items: center;
     text-transform: uppercase;
-    padding: 1rem 0;
+    padding-top:1rem;
 
     .logoLink{
-        font-size: $smallTitleSize;
+        font-size: $logoSize;
         font-weight: bold;
         border-radius: 20px;
-        padding: 0.5rem 1rem;
     }
     .nex{
         color: $waterGreen;
@@ -20,6 +19,7 @@
     }
     .gen{
         color: $darkText;
+        padding-left: 0.2rem;
     }
     
     ul{
@@ -31,8 +31,7 @@
                 color: $darkText;
             };
             button{
-                @include button;
-                background-color: $waterGreen;
+                @include fullbutton;
                 a{
                     color: $whiteText;
                 }

@@ -1,4 +1,42 @@
 .jumbotron{
     background-image: url('../../dist/images/bg-6.jpg');
-    // height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    .herosection{
+        padding: 100px 0;
+        .jumbotextBlock{
+            width: 50%;
+            margin-left: auto;
+            span{
+                @include overSectionSpan;
+                font-size: $standardFontSize;
+            };
+
+            h1{
+                font-size: 50px;
+                font-weight: bold;
+            };
+
+            form{
+                input{
+                    padding: 0.8rem;
+                    width: 47%;
+                    margin: 5px 5px 5px 0;
+                    border-style: none;
+                    border-radius: 5px;
+                    background-color: $inputBackG;
+                };
+            };
+
+            .jumbobutton1{
+                @include fullbutton;
+                margin: 5px 5px 0 0;
+            }
+            .jumbobutton2{
+                @include emptybutton;
+                margin-top: 5px;
+            }
+        }
+    }
 }

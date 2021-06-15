@@ -46,6 +46,50 @@ a {
 
 .jumbotron {
   background-image: url("../../dist/images/bg-6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.jumbotron .herosection {
+  padding: 100px 0;
+}
+.jumbotron .herosection .jumbotextBlock {
+  width: 50%;
+  margin-left: auto;
+}
+.jumbotron .herosection .jumbotextBlock span {
+  color: #058283;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.jumbotron .herosection .jumbotextBlock h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.jumbotron .herosection .jumbotextBlock form input {
+  padding: 0.8rem;
+  width: 47%;
+  margin: 5px 5px 5px 0;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #dadcdb;
+}
+.jumbotron .herosection .jumbotextBlock .jumbobutton1 {
+  text-transform: uppercase;
+  padding: 0.4rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+  background-color: #058283;
+  color: white;
+  margin: 5px 5px 0 0;
+}
+.jumbotron .herosection .jumbotextBlock .jumbobutton2 {
+  text-transform: uppercase;
+  padding: 0.4rem 1rem;
+  border: 1px solid #058283;
+  border-radius: 0.3rem;
+  color: #058283;
+  margin-top: 5px;
 }
 
 .navbar {
@@ -53,13 +97,12 @@ a {
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
-  padding: 1rem 0;
+  padding-top: 1rem;
 }
 .navbar .logoLink {
   font-size: 14px;
   font-weight: bold;
   border-radius: 20px;
-  padding: 0.5rem 1rem;
 }
 .navbar .nex {
   color: #058283;
@@ -70,6 +113,7 @@ a {
 }
 .navbar .gen {
   color: #21333e;
+  padding-left: 0.2rem;
 }
 .navbar ul {
   display: flex;
@@ -87,6 +131,7 @@ a {
   border: 1px solid transparent;
   border-radius: 0.3rem;
   background-color: #058283;
+  color: white;
 }
 .navbar ul li button a {
   color: white;

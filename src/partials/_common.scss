@@ -1,29 +1,48 @@
+// RESET RULES
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+// BODY MAIN RULES
 body{
     font-family: 'Noto Sans', sans-serif;
     font-size: $standardFontSize;
 }
-
+// CONTAINER RULES IN EACH SECTION
 .container{
     width: 65%;
     margin: auto;
 }
-
+// UL - LI - LINK BEHAVIOUR RULES
 ul{
     list-style: none;
 }
 a{
     text-decoration: none;
 }
-
-@mixin button {
+// MIXIN BUTTONS
+@mixin fullbutton {
     text-transform: uppercase;
     padding:0.4rem 1rem;
     border: 1px solid transparent;
     border-radius: 0.3rem;
+    background-color: $waterGreen;
+    color: $whiteText;
+                // a{
+                //     color: $whiteText;
+                // }
+}
+@mixin emptybutton {
+    text-transform: uppercase;
+    padding:0.4rem 1rem;
+    border: 1px solid $waterGreen;
+    border-radius: 0.3rem;
+    color: $waterGreen;
+}
+
+// WATERGREEN SPAN OVER SECTIONS TITLES
+@mixin overSectionSpan {
+    color: $waterGreen;
+    text-transform: uppercase;
 }
