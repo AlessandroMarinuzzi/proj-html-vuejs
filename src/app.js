@@ -43,6 +43,34 @@ const app = new Vue({
                 description: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
                 icon:'fas fa-inbox'
             },
+        ],
+
+        processSteps: [
+            {
+                number:"01",
+                name:"Collection of information",
+                description:"Lorem ipsum dolor sit amet consectetur.",
+            },
+            {
+                number:"02",
+                name:"Strategic planning",
+                description:"Lorem ipsum dolor sit amet consectetur.",
+            },
+            {
+                number:"03",
+                name:"Assignment of responsabilities",
+                description:"Lorem ipsum dolor sit amet consectetur.",
+            },
+            {
+                number:"04",
+                name:"Formatting process",
+                description:"Lorem ipsum dolor sit amet consectetur.",
+            },
+            {
+                number:"05",
+                name:"Continuity formalization",
+                description:"Lorem ipsum dolor sit amet consectetur.",
+            },
         ]
     },
 

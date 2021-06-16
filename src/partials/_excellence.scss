@@ -47,6 +47,7 @@
                 h3{
                     @include sectionsH3;
                     margin: 18px 0;
+                    color: $darkText;
                 };
                 p{
                     color: $greyText;

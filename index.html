@@ -156,7 +156,20 @@
 
                 <!-- PROCESS MANAGEMENT SECTION -->
                 <div class="management">
-                    <div class="largeContainer"></div>
+                    <!-- TOP HALF -->
+                    <div class="container">
+                        <span>how it works in practice</span>
+                        <h2><span>Process</span> Management</h2>
+                        <p>We work with innovative methodologies to ensure that the entire reformatting process is done from start to finish as planned.</p>
+                    </div>
+                    <!-- TOP HALF -->
+                    <div class="largeContainer">
+                        <div class="step" v-for="step in processSteps">
+                            <h3>{{step.number}}</h3>
+                            <h3>{{step.name}}</h3>
+                            <p>{{step.description}}</p>
+                        </div>
+                    </div>
                 </div>
                 <!-- /PROCESS MANAGEMENT SECTION -->
 
