@@ -20,7 +20,36 @@
             };
             button{
                 @include fullbutton;
-            }
-        }
-    }
+            };
+        };
+
+        .news_pics{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+
+            .news_pic{
+                width: calc(100% / 3.2);
+                border-radius: 10px;
+                position: relative;          
+                img{
+                    width: 100%;
+                    border-radius: 10px;
+                    filter: brightness(50%)                    
+                };
+
+                span{
+                    @include sectionsH3;
+                    width: 80%;
+                    color: $whiteText;
+                    text-align: center;
+                    font-weight: bold;
+                    position: absolute;
+                    top: 60%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                };
+            };
+        };
+    };
 }

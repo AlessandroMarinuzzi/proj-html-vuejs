@@ -227,6 +227,16 @@
                             <button>see all</button>
                         </div>
                         <!-- /INTRO AREA -->
+
+                        <!-- PICTURE AREA -->
+                        <div class="news_pics">
+                            <div class="news_pic" v-for="pic in newsPics">
+                                <img :src="pic.pic" alt="">
+                                <span>{{pic.description}}</span>
+                            </div>
+                        </div>
+                        <!-- /PICTURE AREA -->
+
                     </div>
                 </div>
                 <!-- /NEWS SECTION -->

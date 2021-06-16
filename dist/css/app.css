@@ -25,6 +25,7 @@ ul {
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .info_topLabel {
@@ -88,6 +89,7 @@ a {
   border-radius: 0.3rem;
   background-color: #058283;
   color: white;
+  cursor: pointer;
   margin: 5px 5px 0 0;
 }
 .jumbotron .herosection .jumbotextBlock .jumbobutton2 {
@@ -96,6 +98,7 @@ a {
   border: 1px solid #058283;
   border-radius: 0.3rem;
   color: #058283;
+  cursor: pointer;
   margin-top: 5px;
 }
 
@@ -139,6 +142,7 @@ a {
   border-radius: 0.3rem;
   background-color: #058283;
   color: white;
+  cursor: pointer;
 }
 .navbar ul li button a {
   color: white;
@@ -246,6 +250,7 @@ a {
   border-radius: 0.3rem;
   background-color: #058283;
   color: white;
+  cursor: pointer;
 }
 .excellence .container > .servicesCards {
   width: 100%;
@@ -517,4 +522,31 @@ a {
   border-radius: 0.3rem;
   background-color: #058283;
   color: white;
+  cursor: pointer;
+}
+.news .container .news_pics {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.news .container .news_pics .news_pic {
+  width: calc(100% / 3.2);
+  border-radius: 10px;
+  position: relative;
+}
+.news .container .news_pics .news_pic img {
+  width: 100%;
+  border-radius: 10px;
+  filter: brightness(50%);
+}
+.news .container .news_pics .news_pic span {
+  font-size: 18px;
+  width: 80%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
 }

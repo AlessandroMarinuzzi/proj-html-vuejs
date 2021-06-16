@@ -24,6 +24,7 @@ ul{
 }
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 // MIXIN BUTTONS
 @mixin fullbutton {
@@ -33,6 +34,7 @@ a{
     border-radius: 0.3rem;
     background-color: $waterGreen;
     color: $whiteText;
+    cursor: pointer;
                 // a{
                 //     color: $whiteText;
                 // }
@@ -43,6 +45,7 @@ a{
     border: 1px solid $waterGreen;
     border-radius: 0.3rem;
     color: $waterGreen;
+    cursor: pointer;
 }
 
 // WATERGREEN SPAN OVER SECTIONS TITLES

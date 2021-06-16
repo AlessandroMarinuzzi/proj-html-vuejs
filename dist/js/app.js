@@ -73,6 +73,16 @@ var app = new Vue({
       pic: "./dist/images/team-4.jpg",
       name: "T. Johnson",
       role: "ceo & president"
+    }],
+    newsPics: [{
+      pic: "./dist/images/news-1.jpg",
+      description: "Increasing creativity is possible for everyone"
+    }, {
+      pic: "./dist/images/news-2.jpg",
+      description: "Because market research is part of the business plan"
+    }, {
+      pic: "./dist/images/news-3.jpg",
+      description: "Working from home is now a trend"
     }]
   },
   methods: {}
