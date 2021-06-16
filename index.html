@@ -165,8 +165,10 @@
                     <!-- TOP HALF -->
                     <div class="largeContainer">
                         <div class="step" v-for="step in processSteps">
-                            <h3>{{step.number}}</h3>
-                            <h3>{{step.name}}</h3>
+                            <span>
+                                <h3 class="stepNumber">{{step.number}}</h3>
+                            </span>
+                            <h3 class="stepName">{{step.name}}</h3>
                             <p>{{step.description}}</p>
                         </div>
                     </div>
