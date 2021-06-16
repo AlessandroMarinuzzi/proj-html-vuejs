@@ -53,7 +53,7 @@ a {
   background-image: url("../../dist/images/bg-6.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: center center;
 }
 .jumbotron .herosection {
   padding: 100px 0;
@@ -80,7 +80,7 @@ a {
   margin: 5px 5px 5px 0;
   border-style: none;
   border-radius: 5px;
-  background-color: #dadcdb;
+  background-color: rgba(211, 211, 211, 0.535);
 }
 .jumbotron .herosection .jumbotextBlock .jumbobutton1 {
   text-transform: uppercase;
@@ -113,6 +113,7 @@ a {
   font-size: 14px;
   font-weight: bold;
   border-radius: 20px;
+  font-size: 15px;
 }
 .navbar .nex {
   color: #058283;
@@ -549,4 +550,66 @@ a {
   top: 60%;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.know {
+  padding: 80px 0;
+  background-image: url("../../dist/images/bg-1.jpg");
+  background-size: cover;
+  background-position: center right;
+}
+.know .container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 50px;
+}
+.know .container .introText {
+  width: 60%;
+}
+.know .container .introText > span {
+  color: #058283;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: #00a6a6;
+}
+.know .container .introText > h2 {
+  font-size: 35px;
+  font-weight: 900;
+  padding: 20px 0;
+  color: white;
+}
+.know .container .introText > h2 > span {
+  padding: 0 0.5rem;
+  border-radius: 5px;
+}
+.know .container .introText > h2 > span {
+  background-color: #0e272d;
+}
+.know .container .introText p {
+  color: #b9c3d0;
+}
+.know .container .end_form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.know .container .end_form input {
+  padding: 0.8rem;
+  width: 100%;
+  margin: 5px 5px 5px 0;
+  border-style: none;
+  border-radius: 5px;
+  background-color: rgba(211, 211, 211, 0.535);
+}
+.know .container .end_form button {
+  text-transform: uppercase;
+  padding: 0.4rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+  background-color: #058283;
+  color: white;
+  cursor: pointer;
+  width: 40%;
+  margin-top: 5px;
 }

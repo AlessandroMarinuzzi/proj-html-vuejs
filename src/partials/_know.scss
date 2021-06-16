@@ -1,0 +1,51 @@
+.know{
+    padding: 80px 0;
+    background-image: url('../../dist/images/bg-1.jpg');
+    background-size: cover;
+    background-position: center right;
+    
+    .container{
+        display: flex;
+        justify-content: flex-start;
+        padding: 50px;
+        .introText{
+            width: 60%;
+            >span{
+                @include overSectionSpan;
+                color: $ligthWaterGreen
+            };
+            >h2{
+                @include sectionsH2;
+                color: $whiteText;
+                >span{
+                    background-color: $transpDarkWater;
+                };
+            };
+            p{
+                color: $lightText;
+            };
+        };
+
+        .end_form{
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            
+            input{
+                padding: 0.8rem;
+                width: 100%;
+                margin: 5px 5px 5px 0;
+                border-style: none;
+                border-radius: 5px;
+                background-color: rgba(211, 211, 211, 0.535);
+                
+            };
+
+            button{
+                @include fullbutton;
+                width: 40%;
+                margin-top: 5px;
+            }
+        }
+    }
+}
