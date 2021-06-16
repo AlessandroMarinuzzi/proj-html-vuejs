@@ -26,6 +26,37 @@
             };
         };
         // CARDS AREA BELOW
-        
+        >.servicesCards{
+
+            >.serviceCard{
+                background-color: white;
+                width: calc(100% / 3);
+                // height: 200px;
+                border-radius: 10px;
+                padding: 40px 35px;
+                display: flex;
+                flex-direction: column;
+                h3{
+                    @include sectionsH3;
+                    margin: 15px 0;
+                };
+                p{
+                    color: $greyText;
+                };
+                .serviceIcons{
+                    display: flex;
+                    justify-content: space-between;
+                    &:first-child{
+                        font-size: 30px;
+                        color: $waterGreen
+                    };
+                    .fa-arrow-right{
+                        font-size: 16px;
+                        color: $cardsArrow;
+                    }
+                    
+                }
+            }
+        }
     }
 }

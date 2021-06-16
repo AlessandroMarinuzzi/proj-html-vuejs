@@ -42,8 +42,8 @@
                 width: 50%;
                 margin: 20px 0;
                 h3{
+                    @include sectionsH3;
                     color: $whiteText;
-                    font-size: 18px;
                     >i{
                         color:$ligthWaterGreen;
                     };

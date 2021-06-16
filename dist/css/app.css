@@ -188,8 +188,8 @@ a {
   margin: 20px 0;
 }
 .company .container .companyFeatures .featuresCard h3 {
-  color: white;
   font-size: 18px;
+  color: white;
 }
 .company .container .companyFeatures .featuresCard h3 > i {
   color: #00a6a6;
@@ -236,4 +236,31 @@ a {
   border-radius: 0.3rem;
   background-color: #058283;
   color: white;
+}
+.excellence .container > .servicesCards > .serviceCard {
+  background-color: white;
+  width: calc(100% / 3);
+  border-radius: 10px;
+  padding: 40px 35px;
+  display: flex;
+  flex-direction: column;
+}
+.excellence .container > .servicesCards > .serviceCard h3 {
+  font-size: 18px;
+  margin: 15px 0;
+}
+.excellence .container > .servicesCards > .serviceCard p {
+  color: #697881;
+}
+.excellence .container > .servicesCards > .serviceCard .serviceIcons {
+  display: flex;
+  justify-content: space-between;
+}
+.excellence .container > .servicesCards > .serviceCard .serviceIcons:first-child {
+  font-size: 30px;
+  color: #058283;
+}
+.excellence .container > .servicesCards > .serviceCard .serviceIcons .fa-arrow-right {
+  font-size: 16px;
+  color: #82c1c1;
 }
