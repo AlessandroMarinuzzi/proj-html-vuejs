@@ -15,6 +15,10 @@ body {
   margin: auto;
 }
 
+.largeContainer {
+  width: 100%;
+}
+
 ul {
   list-style: none;
 }

@@ -9,10 +9,14 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: $standardFontSize;
 }
-// CONTAINER RULES IN EACH SECTION
+// CONTAINERS RULES IN EACH SECTION
 .container{
     width: 65%;
     margin: auto;
+}
+
+.largeContainer{
+    width: 100%;
 }
 // UL - LI - LINK BEHAVIOUR RULES
 ul{
