@@ -127,12 +127,29 @@
                 <!-- THE EXCELLENCE SECTION -->
                 <div class="excellence">
                     <div class="container">
+                        <!-- INTRO AREA -->
                         <span>our business areas</span>
                         <h2>Excellence in <span>Services</span></h2>
                         <div class="services">
                             <p>We are leaders in providing consultanciy services with a set of cutting-edge technologies and a team od experienced and renowned professionals. These are some options that you can hire.</p>
                             <button>see all</button>
                         </div>
+                        <!-- /INTRO AREA -->
+
+                        <!-- CARDS AREA -->
+                        <ul class="servicesCards">
+                            <li class="serviceCard" v-for="(card, index) in servicesCards">
+                                <div class="serviceIcons">
+                                    <i :class="card.icon"></i>
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                                <h3>{{card.service}}</h3>
+                                <p>{{card.description}}</p>
+                            </li>
+                        </ul>
+                        <!-- CARDS AREA -->
+
+
                     </div>
                 </div>
                 <!-- THE EXCELLENCE SECTION -->
