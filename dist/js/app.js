@@ -56,6 +56,23 @@ var app = new Vue({
       number: "05",
       name: "Continuity formalization",
       description: "Lorem ipsum dolor sit amet consectetur."
+    }],
+    professionals: [{
+      pic: "./dist/images/team-1.jpg",
+      name: "David Cooper",
+      role: "cto & co.funder"
+    }, {
+      pic: "./dist/images/team-3.jpg",
+      name: "Oliver Jones",
+      role: "chief procurement"
+    }, {
+      pic: "./dist/images/team-2.jpg",
+      name: "Emma Lopez",
+      role: "chief marketing"
+    }, {
+      pic: "./dist/images/team-4.jpg",
+      name: "T. Johnson",
+      role: "ceo & president"
     }]
   },
   methods: {}

@@ -175,6 +175,48 @@
                 </div>
                 <!-- /PROCESS MANAGEMENT SECTION -->
 
+                <!-- TEAM OF EXPERTISE SECTION -->
+                <div class="team">
+                    <div class="container">
+                        <span>we like what we do</span>
+                        <div class="team_flex">
+                            <div class="expertise">
+                                <h2><span>Team</span> of Experts</h2>
+                                <p>Ethics and integrity are the bases on which our professionals build their careers. They are fundamentals that become daily attitudes.</p>
+
+                                <div class="professionals">
+                                    <div class="professional" v-for="professional in professionals">
+
+                                        <img :src="professional.pic" alt="">
+
+                                        <div class="professionals_details">
+                                            <h3>{{professional.name}}</h3>
+                                            <p>{{professional.role}}</p>
+                                            <div class="professionals_social">
+                                                <span><i class="fab fa-facebook-f"></i></span>
+                                                <span><i class="fab fa-twitter"></i></span>
+                                                <span><i class="fab fa-linkedin-in"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="speech">
+                                <h3>President Speech</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim cumque officia quidem?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe natus impedit aliquid possimus? Quasi ea sed earum voluptatem, magni numquam illum quaerat.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam asperiores, amet aliquam corporis quibusdam suscipit magni?</p>
+                                <div class="signature">
+                                    <span>T. Johnson</span>
+                                    <i class="fas fa-quote-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /TEAM OF EXPERTISE SECTION -->
+
+
             </main>
         <!-- /MAIN -->
     </div>
