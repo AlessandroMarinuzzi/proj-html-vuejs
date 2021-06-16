@@ -31,7 +31,9 @@
                     // SINGLE PROFESSIONAL PROFILE
                     .professional{
                         display: flex;
-                        margin: 30px 14px 0 0;
+                        width: calc(100% / 2.5);
+                        margin: 20px auto;
+                        margin-left:0;
                         img{
                             width: 90px;
                             height: 110px;
@@ -105,7 +107,9 @@
                     display: flex;
                     justify-content: space-around;
                     span{
-                        color: $whiteText
+                        color: $whiteText;
+                        font-weight: bold;
+                        
                     };
                     i{
                         color: rgba(0, 0, 0, 0.645);

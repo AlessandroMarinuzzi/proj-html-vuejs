@@ -388,7 +388,9 @@ a {
 }
 .team .container .team_flex .expertise .professionals .professional {
   display: flex;
-  margin: 30px 14px 0 0;
+  width: calc(100% / 2.5);
+  margin: 20px auto;
+  margin-left: 0;
 }
 .team .container .team_flex .expertise .professionals .professional img {
   width: 90px;
@@ -459,6 +461,7 @@ a {
 }
 .team .container .team_flex .speech .signature span {
   color: white;
+  font-weight: bold;
 }
 .team .container .team_flex .speech .signature i {
   color: rgba(0, 0, 0, 0.645);
