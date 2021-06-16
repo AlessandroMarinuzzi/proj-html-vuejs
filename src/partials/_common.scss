@@ -47,8 +47,10 @@ a{
 
 // WATERGREEN SPAN OVER SECTIONS TITLES
 @mixin overSectionSpan {
-    color: $ligthWaterGreen;
+    color: $waterGreen;
     text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 // H2 IN ALL SECTIONS

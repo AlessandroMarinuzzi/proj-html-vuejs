@@ -1,0 +1,26 @@
+.news{
+    padding:80px 0;
+    .container{
+        >span{
+            @include overSectionSpan;
+        };
+        h2{
+            @include sectionsH2;
+            color: $darkText;
+            >span{
+                color: $waterGreen;
+                background-color: $transpWaterGreen;
+            };
+        };
+        .seeContent{
+            display: flex;
+            justify-content: space-between;
+            p{
+                color: $greyText;
+            };
+            button{
+                @include fullbutton;
+            }
+        }
+    }
+}

@@ -62,8 +62,10 @@ a {
   margin-left: auto;
 }
 .jumbotron .herosection .jumbotextBlock span {
-  color: #00a6a6;
+  color: #058283;
   text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
   font-size: 13px;
 }
 .jumbotron .herosection .jumbotextBlock h1 {
@@ -158,8 +160,10 @@ a {
   width: 48%;
 }
 .company .container .companyDescription > span {
-  color: #00a6a6;
+  color: #058283;
   text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
   font-size: 11px;
   font-weight: bold;
 }
@@ -208,8 +212,10 @@ a {
   padding: 80px 0;
 }
 .excellence .container > span {
-  color: #00a6a6;
+  color: #058283;
   text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
 }
 .excellence .container > h2 {
   font-size: 35px;
@@ -286,8 +292,10 @@ a {
   padding: 80px 0;
 }
 .management .container > span {
-  color: #00a6a6;
+  color: #058283;
   text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
 }
 .management .container > h2 {
   font-size: 35px;
@@ -355,8 +363,10 @@ a {
   padding: 80px 0;
 }
 .team .container > span {
-  color: #00a6a6;
+  color: #058283;
   text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
 }
 .team .container .team_flex {
   display: flex;
@@ -385,10 +395,11 @@ a {
 .team .container .team_flex .expertise .professionals {
   display: flex;
   flex-wrap: wrap;
+  padding-top: 15px;
 }
 .team .container .team_flex .expertise .professionals .professional {
   display: flex;
-  width: calc(100% / 2.5);
+  width: calc(100% / 2);
   margin: 20px auto;
   margin-left: 0;
 }
@@ -441,7 +452,7 @@ a {
   justify-content: space-evenly;
   align-items: flex-start;
   width: 30%;
-  height: 370px;
+  height: 385px;
   padding: 0 10px;
   margin-top: 20px;
   background-color: #058283;
@@ -467,4 +478,43 @@ a {
   color: rgba(0, 0, 0, 0.645);
   font-size: 25px;
   margin-left: auto;
+}
+
+.news {
+  padding: 80px 0;
+}
+.news .container > span {
+  color: #058283;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+.news .container h2 {
+  font-size: 35px;
+  font-weight: 900;
+  padding: 20px 0;
+  color: #21333e;
+}
+.news .container h2 > span {
+  padding: 0 0.5rem;
+  border-radius: 5px;
+}
+.news .container h2 > span {
+  color: #058283;
+  background-color: #bfdbdc;
+}
+.news .container .seeContent {
+  display: flex;
+  justify-content: space-between;
+}
+.news .container .seeContent p {
+  color: #697881;
+}
+.news .container .seeContent button {
+  text-transform: uppercase;
+  padding: 0.4rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+  background-color: #058283;
+  color: white;
 }

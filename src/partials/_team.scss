@@ -28,10 +28,11 @@
                 .professionals{
                     display: flex;
                     flex-wrap: wrap;
+                    padding-top: 15px;
                     // SINGLE PROFESSIONAL PROFILE
                     .professional{
                         display: flex;
-                        width: calc(100% / 2.5);
+                        width: calc(100% / 2);
                         margin: 20px auto;
                         margin-left:0;
                         img{
@@ -90,7 +91,7 @@
                 justify-content: space-evenly;
                 align-items: flex-start;
                 width: 30%;
-                height: 370px;
+                height: 385px;
                 padding: 0 10px;
                 margin-top: 20px;
                 background-color: $waterGreen;
