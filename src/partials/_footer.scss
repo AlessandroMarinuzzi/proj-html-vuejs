@@ -13,6 +13,7 @@ footer{
                 flex-direction: column;
                 justify-content: space-between;
                 margin-left: 5px;
+                transition: all 0.5s;
                 .logo{
 
                     .logoLink{
@@ -45,6 +46,10 @@ footer{
                     span{
                         margin: 5px 0;
                     }
+                }
+                &:hover:not(:first-child){
+                    
+                    transform: scale(1.1)
                 }
             };
         };

@@ -28,13 +28,12 @@
                 .professionals{
                     display: flex;
                     flex-wrap: wrap;
-                    padding-top: 15px;
+                    
                     // SINGLE PROFESSIONAL PROFILE
                     .professional{
                         display: flex;
-                        width: calc(100% / 2);
-                        margin: 20px auto;
-                        margin-left:0;
+                        width: calc((100% / 2) - 10px);
+                        margin: 30px 0 0 0px;
                         img{
                             width: 90px;
                             height: 110px;
@@ -80,6 +79,10 @@
                             };
                         };
                         
+                        &:nth-child(2),
+                        &:nth-child(4){
+                            margin-left: 20px;
+                        }
                     };
                 };
 
@@ -90,12 +93,12 @@
                 flex-direction: column;
                 justify-content: space-evenly;
                 align-items: flex-start;
-                width: 30%;
-                height: 385px;
-                padding: 0 10px;
+                width: 32%;
+                padding: 0 25px;
                 margin-top: 20px;
                 background-color: $waterGreen;
                 border-radius: 8px;
+                transition: all 1s;
                 h3{
                     @include sectionsH3;
                     color: $whiteText;
@@ -107,6 +110,7 @@
                     width: 100%;
                     display: flex;
                     justify-content: space-around;
+                    align-items: center;
                     span{
                         color: $whiteText;
                         font-weight: bold;
@@ -118,7 +122,10 @@
                         margin-left: auto;
                     }
                 }
-
+                &:hover{
+                    transform: scale(1.2);
+                    cursor: pointer;
+                }
             }
 
         };

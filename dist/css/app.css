@@ -53,7 +53,7 @@ a {
   background-image: url("../../dist/images/bg-6.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: 0% 35%;
 }
 .jumbotron .herosection {
   padding: 100px 0;
@@ -73,6 +73,7 @@ a {
   font-size: 50px;
   font-weight: 900;
   color: #21333e;
+  margin-bottom: 10px;
 }
 .jumbotron .herosection .jumbotextBlock form input {
   padding: 0.8rem;
@@ -80,7 +81,17 @@ a {
   margin: 5px 5px 5px 0;
   border-style: none;
   border-radius: 5px;
-  background-color: rgba(211, 211, 211, 0.535);
+  background-color: rgba(211, 211, 211, 0.597);
+}
+.jumbotron .herosection .jumbotextBlock form span {
+  position: relative;
+}
+.jumbotron .herosection .jumbotextBlock form span i {
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  color: #697881;
+  transform: translateY(-50%);
 }
 .jumbotron .herosection .jumbotextBlock .jumbobutton1 {
   text-transform: uppercase;
@@ -92,6 +103,17 @@ a {
   cursor: pointer;
   margin: 5px 5px 0 0;
 }
+.jumbotron .herosection .jumbotextBlock .jumbobutton1 a {
+  color: white;
+}
+.jumbotron .herosection .jumbotextBlock .jumbobutton1:hover {
+  background-color: transparent;
+  color: #058283;
+  border: 1px solid #058283;
+}
+.jumbotron .herosection .jumbotextBlock .jumbobutton1:hover a {
+  color: #058283;
+}
 .jumbotron .herosection .jumbotextBlock .jumbobutton2 {
   text-transform: uppercase;
   padding: 0.4rem 1rem;
@@ -101,6 +123,10 @@ a {
   background-color: transparent;
   cursor: pointer;
   margin-top: 5px;
+}
+.jumbotron .herosection .jumbotextBlock .jumbobutton2:hover {
+  background-color: #058283;
+  color: white;
 }
 
 .navbar {
@@ -148,6 +174,14 @@ a {
 }
 .navbar ul li button a {
   color: white;
+}
+.navbar ul li button:hover {
+  background-color: transparent;
+  color: #058283;
+  border: 1px solid #058283;
+}
+.navbar ul li button:hover a {
+  color: #058283;
 }
 
 .company {
@@ -254,6 +288,17 @@ a {
   color: white;
   cursor: pointer;
 }
+.excellence .container > .services button a {
+  color: white;
+}
+.excellence .container > .services button:hover {
+  background-color: transparent;
+  color: #058283;
+  border: 1px solid #058283;
+}
+.excellence .container > .services button:hover a {
+  color: #058283;
+}
 .excellence .container > .servicesCards {
   width: 100%;
   display: flex;
@@ -262,13 +307,14 @@ a {
   margin: 30px 0;
 }
 .excellence .container > .servicesCards > .serviceCard {
+  display: flex;
+  flex-direction: column;
   background-color: white;
   width: calc(100% / 3.15);
   margin: 12px 0;
   border-radius: 10px;
   padding: 40px 35px;
-  display: flex;
-  flex-direction: column;
+  transition: 0.7s;
 }
 .excellence .container > .servicesCards > .serviceCard:nth-child(2), .excellence .container > .servicesCards > .serviceCard:nth-child(5) {
   margin: 12px auto;
@@ -292,6 +338,20 @@ a {
 .excellence .container > .servicesCards > .serviceCard .serviceIcons .fa-arrow-right {
   font-size: 16px;
   color: #82c1c1;
+}
+.excellence .container > .servicesCards > .serviceCard:hover {
+  background-color: #00a6a6;
+  cursor: pointer;
+  transform: scale(0.9);
+}
+.excellence .container > .servicesCards > .serviceCard:hover h3 {
+  color: white;
+}
+.excellence .container > .servicesCards > .serviceCard:hover p {
+  color: white;
+}
+.excellence .container > .servicesCards > .serviceCard:hover i {
+  color: white;
 }
 
 .management {
@@ -402,13 +462,11 @@ a {
 .team .container .team_flex .expertise .professionals {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 15px;
 }
 .team .container .team_flex .expertise .professionals .professional {
   display: flex;
-  width: calc(100% / 2);
-  margin: 20px auto;
-  margin-left: 0;
+  width: calc((100% / 2) - 10px);
+  margin: 30px 0 0 0px;
 }
 .team .container .team_flex .expertise .professionals .professional img {
   width: 90px;
@@ -453,17 +511,20 @@ a {
 .team .container .team_flex .expertise .professionals .professional .professionals_details .professionals_social span:nth-child(2) {
   margin: 0 5px;
 }
+.team .container .team_flex .expertise .professionals .professional:nth-child(2), .team .container .team_flex .expertise .professionals .professional:nth-child(4) {
+  margin-left: 20px;
+}
 .team .container .team_flex .speech {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
-  width: 30%;
-  height: 385px;
-  padding: 0 10px;
+  width: 32%;
+  padding: 0 25px;
   margin-top: 20px;
   background-color: #058283;
   border-radius: 8px;
+  transition: all 1s;
 }
 .team .container .team_flex .speech h3 {
   font-size: 18px;
@@ -476,6 +537,7 @@ a {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .team .container .team_flex .speech .signature span {
   color: white;
@@ -485,6 +547,10 @@ a {
   color: rgba(0, 0, 0, 0.645);
   font-size: 25px;
   margin-left: auto;
+}
+.team .container .team_flex .speech:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 .news {
@@ -526,6 +592,17 @@ a {
   color: white;
   cursor: pointer;
 }
+.news .container .seeContent button a {
+  color: white;
+}
+.news .container .seeContent button:hover {
+  background-color: transparent;
+  color: #058283;
+  border: 1px solid #058283;
+}
+.news .container .seeContent button:hover a {
+  color: #058283;
+}
 .news .container .news_pics {
   display: flex;
   justify-content: space-between;
@@ -540,6 +617,11 @@ a {
   width: 100%;
   border-radius: 10px;
   filter: brightness(50%);
+}
+.news .container .news_pics .news_pic:hover {
+  cursor: pointer;
+  transition: all 1s;
+  transform: scale(0.9);
 }
 .news .container .news_pics .news_pic span {
   font-size: 18px;
@@ -614,6 +696,17 @@ a {
   width: 40%;
   margin-top: 5px;
 }
+.know .container .end_form button a {
+  color: white;
+}
+.know .container .end_form button:hover {
+  background-color: transparent;
+  color: #058283;
+  border: 1px solid #058283;
+}
+.know .container .end_form button:hover a {
+  color: #058283;
+}
 
 footer {
   background-color: #111117;
@@ -630,6 +723,7 @@ footer .container .footer_links .cols {
   flex-direction: column;
   justify-content: space-between;
   margin-left: 5px;
+  transition: all 0.5s;
 }
 footer .container .footer_links .cols .logo .logoLink {
   font-size: 14px;
@@ -668,6 +762,10 @@ footer .container .footer_links .cols button {
   color: white;
   width: 70%;
 }
+footer .container .footer_links .cols button:hover {
+  background-color: #058283;
+  color: white;
+}
 footer .container .footer_links .cols:not(:first-child) {
   background-color: #19191f;
   border-radius: 8px;
@@ -680,6 +778,9 @@ footer .container .footer_links .cols:not(:first-child) h3 {
 }
 footer .container .footer_links .cols:not(:first-child) span {
   margin: 5px 0;
+}
+footer .container .footer_links .cols:hover:not(:first-child) {
+  transform: scale(1.1);
 }
 footer .bottom_label {
   background-color: #0d0d11;

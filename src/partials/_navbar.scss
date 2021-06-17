@@ -19,9 +19,6 @@
             };
             button{
                 @include fullbutton;
-                a{
-                    color: $whiteText;
-                }
             }
         }
     }

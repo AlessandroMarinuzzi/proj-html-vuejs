@@ -2,7 +2,7 @@
     background-image: url('../../dist/images/bg-6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: 0% 35%;
     .herosection{
         padding: 100px 0;
         .jumbotextBlock{
@@ -17,6 +17,7 @@
                 font-size: 50px;
                 font-weight: 900;
                 color: $darkText;
+                margin-bottom: 10px;
             };
 
             form{
@@ -26,8 +27,19 @@
                     margin: 5px 5px 5px 0;
                     border-style: none;
                     border-radius: 5px;
-                    background-color: rgba(211, 211, 211, 0.535);
-                };
+                    background-color: rgba(211, 211, 211, 0.597);
+                }
+                
+                span{
+                    position: relative;
+                    i{
+                        position: absolute;
+                        right: 25px;
+                        top: 50%;
+                        color: $greyText;
+                        transform: translateY(-50%)
+                    }
+                }
             };
 
             .jumbobutton1{
