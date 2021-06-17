@@ -88,11 +88,11 @@ var app = new Vue({
       colName: "About",
       links: ["The Company", "Institutional", "Social & Events", "Innovation", "Environment", "Technologies"]
     }, {
-      colName: "About",
-      links: ["The Company", "Institutional", "Social & Events", "Innovation", "Environment", "Technologies"]
+      colName: "Services",
+      links: ["Audit & Assurance", "Financial Advisory", "Analytics and M&A", "Middle Marketing", "Legal Consulting", "Regulatory Risk"]
     }, {
-      colName: "About",
-      links: ["The Company", "Institutional", "Social & Events", "Innovation", "Environment", "Technologies"]
+      colName: "Support",
+      links: ["Responsability", "Terms of Use", "About Cookies", "Privacy Policy", "Accesibility", "Information"]
     }]
   },
   methods: {}

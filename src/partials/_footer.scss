@@ -37,7 +37,7 @@ footer{
                 &:not(:first-child){
                     background-color: $colsBG;
                     border-radius: 8px;
-                    padding: 30px 30px;
+                    padding: 25px;
                     h3{
                         @include sectionsH3;
                         color: $whiteText;
@@ -45,6 +45,9 @@ footer{
                     };
                     span{
                         margin: 5px 0;
+                        i{
+                            margin-right: 5px;
+                        }
                     }
                 }
                 &:hover:not(:first-child){

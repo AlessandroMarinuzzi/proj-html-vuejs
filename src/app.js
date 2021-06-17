@@ -124,25 +124,25 @@ const app = new Vue({
                 ]
             },
             {
-                colName:"About",
+                colName:"Services",
                 links:[
-                    "The Company",
-                    "Institutional",
-                    "Social & Events",
-                    "Innovation",
-                    "Environment",
-                    "Technologies"
+                    "Audit & Assurance",
+                    "Financial Advisory",
+                    "Analytics and M&A",
+                    "Middle Marketing",
+                    "Legal Consulting",
+                    "Regulatory Risk"
                 ]
             },
             {
-                colName:"About",
+                colName:"Support",
                 links:[
-                    "The Company",
-                    "Institutional",
-                    "Social & Events",
-                    "Innovation",
-                    "Environment",
-                    "Technologies"
+                    "Responsability",
+                    "Terms of Use",
+                    "About Cookies",
+                    "Privacy Policy",
+                    "Accesibility",
+                    "Information"
                 ]
             },
         ]

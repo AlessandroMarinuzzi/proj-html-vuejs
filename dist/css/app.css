@@ -783,7 +783,7 @@ footer .container .footer_links .cols button:hover {
 footer .container .footer_links .cols:not(:first-child) {
   background-color: #19191f;
   border-radius: 8px;
-  padding: 30px 30px;
+  padding: 25px;
 }
 footer .container .footer_links .cols:not(:first-child) h3 {
   font-size: 18px;
@@ -792,6 +792,9 @@ footer .container .footer_links .cols:not(:first-child) h3 {
 }
 footer .container .footer_links .cols:not(:first-child) span {
   margin: 5px 0;
+}
+footer .container .footer_links .cols:not(:first-child) span i {
+  margin-right: 5px;
 }
 footer .container .footer_links .cols:hover:not(:first-child) {
   transform: scale(1.1);
