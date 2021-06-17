@@ -35,13 +35,15 @@ a{
     background-color: $waterGreen;
     color: $whiteText;
     cursor: pointer;
+    transition: all 0.5s;
                 a{
                     color: $whiteText;
                 };
                 &:hover{
-                    background-color: transparent;
+                    background-color: $transpWaterGreen;
                     color: $waterGreen;
                     border: 1px solid $waterGreen;
+                    transform: scale(1.2);
                     a{
                         color:$waterGreen
                     }
@@ -56,9 +58,11 @@ a{
     color: $waterGreen;
     background-color: transparent;
     cursor: pointer;
+    transition: all 0.5s;
     &:hover{
-        background-color: $waterGreen;
-        color: $whiteText;
+        background-color: $transpWaterGreen;
+        color: $waterGreen;
+        transform: scale(1.2);
     }
 }
 

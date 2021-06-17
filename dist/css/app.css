@@ -101,15 +101,17 @@ a {
   background-color: #058283;
   color: white;
   cursor: pointer;
+  transition: all 0.5s;
   margin: 5px 5px 0 0;
 }
 .jumbotron .herosection .jumbotextBlock .jumbobutton1 a {
   color: white;
 }
 .jumbotron .herosection .jumbotextBlock .jumbobutton1:hover {
-  background-color: transparent;
+  background-color: #bfdbdc;
   color: #058283;
   border: 1px solid #058283;
+  transform: scale(1.2);
 }
 .jumbotron .herosection .jumbotextBlock .jumbobutton1:hover a {
   color: #058283;
@@ -122,11 +124,13 @@ a {
   color: #058283;
   background-color: transparent;
   cursor: pointer;
+  transition: all 0.5s;
   margin-top: 5px;
 }
 .jumbotron .herosection .jumbotextBlock .jumbobutton2:hover {
-  background-color: #058283;
-  color: white;
+  background-color: #bfdbdc;
+  color: #058283;
+  transform: scale(1.2);
 }
 
 .navbar {
@@ -171,14 +175,16 @@ a {
   background-color: #058283;
   color: white;
   cursor: pointer;
+  transition: all 0.5s;
 }
 .navbar ul li button a {
   color: white;
 }
 .navbar ul li button:hover {
-  background-color: transparent;
+  background-color: #bfdbdc;
   color: #058283;
   border: 1px solid #058283;
+  transform: scale(1.2);
 }
 .navbar ul li button:hover a {
   color: #058283;
@@ -287,14 +293,16 @@ a {
   background-color: #058283;
   color: white;
   cursor: pointer;
+  transition: all 0.5s;
 }
 .excellence .container > .services button a {
   color: white;
 }
 .excellence .container > .services button:hover {
-  background-color: transparent;
+  background-color: #bfdbdc;
   color: #058283;
   border: 1px solid #058283;
+  transform: scale(1.2);
 }
 .excellence .container > .services button:hover a {
   color: #058283;
@@ -591,14 +599,16 @@ a {
   background-color: #058283;
   color: white;
   cursor: pointer;
+  transition: all 0.5s;
 }
 .news .container .seeContent button a {
   color: white;
 }
 .news .container .seeContent button:hover {
-  background-color: transparent;
+  background-color: #bfdbdc;
   color: #058283;
   border: 1px solid #058283;
+  transform: scale(1.2);
 }
 .news .container .seeContent button:hover a {
   color: #058283;
@@ -693,6 +703,7 @@ a {
   background-color: #058283;
   color: white;
   cursor: pointer;
+  transition: all 0.5s;
   width: 40%;
   margin-top: 5px;
 }
@@ -700,9 +711,10 @@ a {
   color: white;
 }
 .know .container .end_form button:hover {
-  background-color: transparent;
+  background-color: #bfdbdc;
   color: #058283;
   border: 1px solid #058283;
+  transform: scale(1.2);
 }
 .know .container .end_form button:hover a {
   color: #058283;
@@ -759,12 +771,14 @@ footer .container .footer_links .cols button {
   color: #058283;
   background-color: transparent;
   cursor: pointer;
+  transition: all 0.5s;
   color: white;
   width: 70%;
 }
 footer .container .footer_links .cols button:hover {
-  background-color: #058283;
-  color: white;
+  background-color: #bfdbdc;
+  color: #058283;
+  transform: scale(1.2);
 }
 footer .container .footer_links .cols:not(:first-child) {
   background-color: #19191f;
