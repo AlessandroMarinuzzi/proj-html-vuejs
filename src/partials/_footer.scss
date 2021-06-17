@@ -28,7 +28,11 @@ footer{
                 };
                 a{
                     color: $lightText;
+                    &:hover{
+                        color: $waterGreen;
+                    }
                 };
+                
                 button{
                     @include emptybutton;
                     color: $whiteText;
@@ -48,12 +52,16 @@ footer{
                         i{
                             margin-right: 5px;
                         }
+                    };
+                    &:hover{
+                        color: $waterGreen;
                     }
                 }
                 &:hover:not(:first-child){
                     
                     transform: scale(1.1)
-                }
+                };
+                
             };
         };
     };

@@ -763,6 +763,9 @@ footer .container .footer_links .cols .logo .logoLink .gen {
 footer .container .footer_links .cols a {
   color: #b9c3d0;
 }
+footer .container .footer_links .cols a:hover {
+  color: #058283;
+}
 footer .container .footer_links .cols button {
   text-transform: uppercase;
   padding: 0.4rem 1rem;
@@ -795,6 +798,9 @@ footer .container .footer_links .cols:not(:first-child) span {
 }
 footer .container .footer_links .cols:not(:first-child) span i {
   margin-right: 5px;
+}
+footer .container .footer_links .cols:not(:first-child):hover {
+  color: #058283;
 }
 footer .container .footer_links .cols:hover:not(:first-child) {
   transform: scale(1.1);
