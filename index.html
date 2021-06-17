@@ -264,12 +264,55 @@
                     </div>
                 </div>
                 <!-- /KNOW FIRST SECTION -->
-
-
-
-
             </main>
         <!-- /MAIN -->
+
+        <!-- FOOTER -->
+            <footer id="site_footer">
+                <div class="container">
+                    <div class="footer_links">
+                        <!-- COMPANY INFOS -->
+                        <div class="cols">
+                            <span class="logo">
+                                <a class="logoLink" href=""><span class="nex">Nex</span><span class="gen">Gen</span></a>
+                            </span>
+                            <span>A functional Html Template for corporate and business.</span>
+                            <span class="phoneNumber">
+                                <i class="fas fa-phone-alt"></i>
+                                +1(305)1234 5678
+                            </span>
+                            <span class="emailAddress">
+                                <i class="fas fa-envelope"></i>
+                                hello@example.com
+                            </span>
+                            <span class="location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Main Avenue, 987
+                            </span>
+                            <button>Get in Touch</button>
+                        </div>
+                        <!-- /COMPANY INFOS -->
+
+                        <!-- FOOTER LINKS COLUMNS -->
+                        <div class="cols" v-for="col in linksCols">
+                            <h3>{{col.colName}}</h3>
+                            <span v-for="link in col.links">
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">{{link}}</a>
+                            </span>
+                        </div>
+                        <!-- /FOOTER LINKS COLUMNS-->
+                    </div>
+                </div>
+                <div class="bottom_label">
+                    <div class="container">
+                        <span>Enjoy the low price. We are tracking any intention of piracy.</span>
+                        <span>&copy; 2020 NEXGEN is Proudly Powered by <span class="codings">codings</span>.</span>
+                    </div>
+                </div>
+            </footer>
+        <!-- /FOOTER -->
+
     </div>
     <!-- /Container #root to work in VueJS -->
 

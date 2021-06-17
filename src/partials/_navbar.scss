@@ -6,21 +6,7 @@
     padding-top:1rem;
 
     .logoLink{
-        font-size: $logoSize;
-        font-weight: bold;
-        border-radius: 20px;
-        font-size: 15px;
-    }
-    .nex{
-        color: $waterGreen;
-        padding: 0.5rem 0.2rem 0.5rem 1rem;
-        background-color: $transpWaterGreen;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 20px;
-    }
-    .gen{
-        color: $darkText;
-        padding-left: 0.2rem;
+        @include logo;
     }
     
     ul{

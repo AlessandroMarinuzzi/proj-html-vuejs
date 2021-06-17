@@ -83,6 +83,16 @@ var app = new Vue({
     }, {
       pic: "./dist/images/news-3.jpg",
       description: "Working from home is now a trend"
+    }],
+    linksCols: [{
+      colName: "About",
+      links: ["The Company", "Institutional", "Social & Events", "Innovation", "Environment", "Technologies"]
+    }, {
+      colName: "About",
+      links: ["The Company", "Institutional", "Social & Events", "Innovation", "Environment", "Technologies"]
+    }, {
+      colName: "About",
+      links: ["The Company", "Institutional", "Social & Events", "Innovation", "Environment", "Technologies"]
     }]
   },
   methods: {}

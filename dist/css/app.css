@@ -98,6 +98,7 @@ a {
   border: 1px solid #058283;
   border-radius: 0.3rem;
   color: #058283;
+  background-color: transparent;
   cursor: pointer;
   margin-top: 5px;
 }
@@ -113,16 +114,16 @@ a {
   font-size: 14px;
   font-weight: bold;
   border-radius: 20px;
-  font-size: 15px;
+  font-size: 16px;
 }
-.navbar .nex {
+.navbar .logoLink .nex {
   color: #058283;
   padding: 0.5rem 0.2rem 0.5rem 1rem;
   background-color: #bfdbdc;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
-.navbar .gen {
+.navbar .logoLink .gen {
   color: #21333e;
   padding-left: 0.2rem;
 }
@@ -612,4 +613,85 @@ a {
   cursor: pointer;
   width: 40%;
   margin-top: 5px;
+}
+
+footer {
+  background-color: #111117;
+  color: #b9c3d0;
+  padding-top: 80px;
+}
+footer .container .footer_links {
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .footer_links .cols {
+  width: calc((100% / 4) - 30px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 5px;
+}
+footer .container .footer_links .cols .logo .logoLink {
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 16px;
+}
+footer .container .footer_links .cols .logo .logoLink .nex {
+  color: #058283;
+  padding: 0.5rem 0.2rem 0.5rem 1rem;
+  background-color: #bfdbdc;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+footer .container .footer_links .cols .logo .logoLink .gen {
+  color: #21333e;
+  padding-left: 0.2rem;
+}
+footer .container .footer_links .cols .logo .logoLink .nex {
+  background-color: #0e272d;
+}
+footer .container .footer_links .cols .logo .logoLink .gen {
+  color: #b9c3d0;
+}
+footer .container .footer_links .cols a {
+  color: #b9c3d0;
+}
+footer .container .footer_links .cols button {
+  text-transform: uppercase;
+  padding: 0.4rem 1rem;
+  border: 1px solid #058283;
+  border-radius: 0.3rem;
+  color: #058283;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  width: 70%;
+}
+footer .container .footer_links .cols:not(:first-child) {
+  background-color: #19191f;
+  border-radius: 8px;
+  padding: 30px 30px;
+}
+footer .container .footer_links .cols:not(:first-child) h3 {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 15px;
+}
+footer .container .footer_links .cols:not(:first-child) span {
+  margin: 5px 0;
+}
+footer .bottom_label {
+  background-color: #0d0d11;
+  color: #b9c3d0;
+  padding: 20px 0;
+  margin-top: 80px;
+}
+footer .bottom_label .container {
+  display: flex;
+  justify-content: space-between;
+}
+footer .bottom_label .container > span > .codings {
+  text-transform: uppercase;
+  color: #058283;
 }
