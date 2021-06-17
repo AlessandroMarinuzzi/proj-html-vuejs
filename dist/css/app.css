@@ -53,10 +53,10 @@ a {
   background-image: url("../../dist/images/bg-6.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0% 35%;
+  background-position: 0% 50%;
 }
 .jumbotron .herosection {
-  padding: 100px 0;
+  padding: 140px 0;
 }
 .jumbotron .herosection .jumbotextBlock {
   width: 50%;
